@@ -1,0 +1,27 @@
+{
+  "name": "Barkday",
+  "short_name": "Barkday",
+  "description": "Dog birthday tracker and celebration app",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4CAF50",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "48x48",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/barkday-logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/barkday-logo2.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
