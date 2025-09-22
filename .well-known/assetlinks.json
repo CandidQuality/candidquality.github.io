@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.candidquality.barkday",
+      "sha256_cert_fingerprints": [
+        "75:E9:A2:7F:67:1C:72:5A:2D:EC:D6:32:49:1B:1B:2E:62:48:DE:A1:D2:93:C0:5C:3F:62:60:0A:15:BB:BD:0A"
+      ]
+    }
+  }
+]
