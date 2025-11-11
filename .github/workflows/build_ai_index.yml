@@ -1,0 +1,49 @@
+name: Build AI Index and Packs
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+    # Avoid loops when the workflow commits docs/*
+    paths-ignore:
+      - "docs/**"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ai-index-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Use Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      # If your repo has no npm dependencies, we skip install.
+
+      - name: Build indices and packs
+        run: node scripts/build_ai_index.mjs
+
+      - name: Commit docs if changed
+        run: |
+          if [[ -n "$(git status --porcelain docs)" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add docs
+            git commit -m "build(ai): regenerate ai-index and packs"
+            git push
+          else
+            echo "No changes in docs/"
+          fi
+        # Prevent recursion if a bot push re-triggers the job due to other filters
+        if: ${{ github.actor != 'github-actions[bot]' || github.event_name == 'workflow_dispatch' }}
