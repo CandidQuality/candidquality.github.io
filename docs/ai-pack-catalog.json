@@ -1,8 +1,8 @@
 {
   "schema": "barkday.ai-pack-catalog.v1",
   "repo": "CandidQuality/candidquality.github.io",
-  "commit": "916f37bba42cae38c5e3ee433d54a67d35e9dfd2",
-  "updated_utc": "2025-11-11T03:20:41.191Z",
+  "commit": "823033489a11b6d7c6ed192fc226e49fee06d0d2",
+  "updated_utc": "2025-11-11T03:21:07.356Z",
   "packs": [
     {
       "name": "ai-pack-docs",

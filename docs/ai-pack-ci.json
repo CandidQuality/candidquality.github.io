@@ -1,8 +1,8 @@
 {
   "schema": "barkday.ai-pack-ci.v1",
   "repo": "CandidQuality/candidquality.github.io",
-  "commit": "916f37bba42cae38c5e3ee433d54a67d35e9dfd2",
-  "updated_utc": "2025-11-11T03:20:41.191Z",
+  "commit": "823033489a11b6d7c6ed192fc226e49fee06d0d2",
+  "updated_utc": "2025-11-11T03:21:07.356Z",
   "count": 1,
   "items": [
     {
@@ -10,8 +10,8 @@
       "size": 1311,
       "sha": "0fd4fa27b3a4427c12c009e50770451b2fd96d78",
       "media_type": "text/yaml",
-      "raw_url": "https://raw.githubusercontent.com/CandidQuality/candidquality.github.io/916f37bba42cae38c5e3ee433d54a67d35e9dfd2/.github/workflows/build_ai_index.yml",
-      "html_url": "https://github.com/CandidQuality/candidquality.github.io/blob/916f37bba42cae38c5e3ee433d54a67d35e9dfd2/.github/workflows/build_ai_index.yml",
+      "raw_url": "https://raw.githubusercontent.com/CandidQuality/candidquality.github.io/823033489a11b6d7c6ed192fc226e49fee06d0d2/.github/workflows/build_ai_index.yml",
+      "html_url": "https://github.com/CandidQuality/candidquality.github.io/blob/823033489a11b6d7c6ed192fc226e49fee06d0d2/.github/workflows/build_ai_index.yml",
       "inline_state": "full",
       "max_inline_text_bytes": 614400,
       "max_inline_bin_bytes": 204800,

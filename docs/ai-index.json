@@ -2,66 +2,346 @@
   "schema": "barkday.ai-index.v1",
   "repo": "CandidQuality/candidquality.github.io",
   "default_branch": "main",
-  "commit": "916f37bba42cae38c5e3ee433d54a67d35e9dfd2",
-  "updated_utc": "2025-11-11T03:20:41.191Z",
-  "files_count": 7,
-  "total_bytes": 23309,
+  "commit": "823033489a11b6d7c6ed192fc226e49fee06d0d2",
+  "updated_utc": "2025-11-11T03:21:07.356Z",
+  "files_count": 42,
+  "total_bytes": 167070,
   "files": [
     {
       "path": ".github/workflows/build_ai_index.yml",
       "size": 1311,
       "git_blob_sha": "0fd4fa27b3a4427c12c009e50770451b2fd96d78",
       "media_type": "text/yaml",
-      "raw_url": "https://raw.githubusercontent.com/CandidQuality/candidquality.github.io/916f37bba42cae38c5e3ee433d54a67d35e9dfd2/.github/workflows/build_ai_index.yml",
-      "html_url": "https://github.com/CandidQuality/candidquality.github.io/blob/916f37bba42cae38c5e3ee433d54a67d35e9dfd2/.github/workflows/build_ai_index.yml"
+      "raw_url": "https://raw.githubusercontent.com/CandidQuality/candidquality.github.io/823033489a11b6d7c6ed192fc226e49fee06d0d2/.github/workflows/build_ai_index.yml",
+      "html_url": "https://github.com/CandidQuality/candidquality.github.io/blob/823033489a11b6d7c6ed192fc226e49fee06d0d2/.github/workflows/build_ai_index.yml"
     },
     {
       "path": ".nojekyll",
       "size": 1,
       "git_blob_sha": "8b137891791fe96927ad78e64b0aad7bded08bdc",
       "media_type": "application/octet-stream",
-      "raw_url": "https://raw.githubusercontent.com/CandidQuality/candidquality.github.io/916f37bba42cae38c5e3ee433d54a67d35e9dfd2/.nojekyll",
-      "html_url": "https://github.com/CandidQuality/candidquality.github.io/blob/916f37bba42cae38c5e3ee433d54a67d35e9dfd2/.nojekyll"
+      "raw_url": "https://raw.githubusercontent.com/CandidQuality/candidquality.github.io/823033489a11b6d7c6ed192fc226e49fee06d0d2/.nojekyll",
+      "html_url": "https://github.com/CandidQuality/candidquality.github.io/blob/823033489a11b6d7c6ed192fc226e49fee06d0d2/.nojekyll"
     },
     {
       "path": ".well-known/assetlinks.json",
       "size": 333,
       "git_blob_sha": "4713b816e9575a9530d43e6be87e3985803c328b",
       "media_type": "application/json",
-      "raw_url": "https://raw.githubusercontent.com/CandidQuality/candidquality.github.io/916f37bba42cae38c5e3ee433d54a67d35e9dfd2/.well-known/assetlinks.json",
-      "html_url": "https://github.com/CandidQuality/candidquality.github.io/blob/916f37bba42cae38c5e3ee433d54a67d35e9dfd2/.well-known/assetlinks.json"
+      "raw_url": "https://raw.githubusercontent.com/CandidQuality/candidquality.github.io/823033489a11b6d7c6ed192fc226e49fee06d0d2/.well-known/assetlinks.json",
+      "html_url": "https://github.com/CandidQuality/candidquality.github.io/blob/823033489a11b6d7c6ed192fc226e49fee06d0d2/.well-known/assetlinks.json"
     },
     {
       "path": "README.md",
       "size": 28,
       "git_blob_sha": "183585f0e4c0648e8330d5d5f0fb9bf2f2c13c6f",
       "media_type": "text/markdown",
-      "raw_url": "https://raw.githubusercontent.com/CandidQuality/candidquality.github.io/916f37bba42cae38c5e3ee433d54a67d35e9dfd2/README.md",
-      "html_url": "https://github.com/CandidQuality/candidquality.github.io/blob/916f37bba42cae38c5e3ee433d54a67d35e9dfd2/README.md"
+      "raw_url": "https://raw.githubusercontent.com/CandidQuality/candidquality.github.io/823033489a11b6d7c6ed192fc226e49fee06d0d2/README.md",
+      "html_url": "https://github.com/CandidQuality/candidquality.github.io/blob/823033489a11b6d7c6ed192fc226e49fee06d0d2/README.md"
+    },
+    {
+      "path": "docs/ai-data-config-list.html",
+      "size": 615,
+      "git_blob_sha": "5ebde1e41926ffa5e9c2ae32be22392c6725154f",
+      "media_type": "text/html",
+      "raw_url": "https://raw.githubusercontent.com/CandidQuality/candidquality.github.io/823033489a11b6d7c6ed192fc226e49fee06d0d2/docs/ai-data-config-list.html",
+      "html_url": "https://github.com/CandidQuality/candidquality.github.io/blob/823033489a11b6d7c6ed192fc226e49fee06d0d2/docs/ai-data-config-list.html"
+    },
+    {
+      "path": "docs/ai-data-config-list.json",
+      "size": 229,
+      "git_blob_sha": "0ffda231464091f4a149876c7505aead4c9b00f2",
+      "media_type": "application/json",
+      "raw_url": "https://raw.githubusercontent.com/CandidQuality/candidquality.github.io/823033489a11b6d7c6ed192fc226e49fee06d0d2/docs/ai-data-config-list.json",
+      "html_url": "https://github.com/CandidQuality/candidquality.github.io/blob/823033489a11b6d7c6ed192fc226e49fee06d0d2/docs/ai-data-config-list.json"
+    },
+    {
+      "path": "docs/ai-data-config-list.min.json",
+      "size": 204,
+      "git_blob_sha": "bc4ac8fe1b29abfeec61e1261389f46a7933987c",
+      "media_type": "application/json",
+      "raw_url": "https://raw.githubusercontent.com/CandidQuality/candidquality.github.io/823033489a11b6d7c6ed192fc226e49fee06d0d2/docs/ai-data-config-list.min.json",
+      "html_url": "https://github.com/CandidQuality/candidquality.github.io/blob/823033489a11b6d7c6ed192fc226e49fee06d0d2/docs/ai-data-config-list.min.json"
+    },
+    {
+      "path": "docs/ai-data-list.html",
+      "size": 599,
+      "git_blob_sha": "a6d81dfcfa0d4f0c35e85b842d817cc10df059d9",
+      "media_type": "text/html",
+      "raw_url": "https://raw.githubusercontent.com/CandidQuality/candidquality.github.io/823033489a11b6d7c6ed192fc226e49fee06d0d2/docs/ai-data-list.html",
+      "html_url": "https://github.com/CandidQuality/candidquality.github.io/blob/823033489a11b6d7c6ed192fc226e49fee06d0d2/docs/ai-data-list.html"
+    },
+    {
+      "path": "docs/ai-data-list.json",
+      "size": 222,
+      "git_blob_sha": "eed6d528c7d9d16b1bcf6e0a812ee8ee67b353f3",
+      "media_type": "application/json",
+      "raw_url": "https://raw.githubusercontent.com/CandidQuality/candidquality.github.io/823033489a11b6d7c6ed192fc226e49fee06d0d2/docs/ai-data-list.json",
+      "html_url": "https://github.com/CandidQuality/candidquality.github.io/blob/823033489a11b6d7c6ed192fc226e49fee06d0d2/docs/ai-data-list.json"
+    },
+    {
+      "path": "docs/ai-data-list.min.json",
+      "size": 197,
+      "git_blob_sha": "bfe3faa6a34348279d4e5c17112abf758540f2c6",
+      "media_type": "application/json",
+      "raw_url": "https://raw.githubusercontent.com/CandidQuality/candidquality.github.io/823033489a11b6d7c6ed192fc226e49fee06d0d2/docs/ai-data-list.min.json",
+      "html_url": "https://github.com/CandidQuality/candidquality.github.io/blob/823033489a11b6d7c6ed192fc226e49fee06d0d2/docs/ai-data-list.min.json"
+    },
+    {
+      "path": "docs/ai-docs-list.html",
+      "size": 599,
+      "git_blob_sha": "af2db40747ac63a0ab65c7bbac17fae426c08791",
+      "media_type": "text/html",
+      "raw_url": "https://raw.githubusercontent.com/CandidQuality/candidquality.github.io/823033489a11b6d7c6ed192fc226e49fee06d0d2/docs/ai-docs-list.html",
+      "html_url": "https://github.com/CandidQuality/candidquality.github.io/blob/823033489a11b6d7c6ed192fc226e49fee06d0d2/docs/ai-docs-list.html"
+    },
+    {
+      "path": "docs/ai-docs-list.json",
+      "size": 222,
+      "git_blob_sha": "d21373aecda2bf5d2d865ddae4823b3762e9a4ad",
+      "media_type": "application/json",
+      "raw_url": "https://raw.githubusercontent.com/CandidQuality/candidquality.github.io/823033489a11b6d7c6ed192fc226e49fee06d0d2/docs/ai-docs-list.json",
+      "html_url": "https://github.com/CandidQuality/candidquality.github.io/blob/823033489a11b6d7c6ed192fc226e49fee06d0d2/docs/ai-docs-list.json"
+    },
+    {
+      "path": "docs/ai-docs-list.min.json",
+      "size": 197,
+      "git_blob_sha": "c37ff1bab931bbf42e2334dcd10ff85e8b9681b5",
+      "media_type": "application/json",
+      "raw_url": "https://raw.githubusercontent.com/CandidQuality/candidquality.github.io/823033489a11b6d7c6ed192fc226e49fee06d0d2/docs/ai-docs-list.min.json",
+      "html_url": "https://github.com/CandidQuality/candidquality.github.io/blob/823033489a11b6d7c6ed192fc226e49fee06d0d2/docs/ai-docs-list.min.json"
+    },
+    {
+      "path": "docs/ai-index.json",
+      "size": 3563,
+      "git_blob_sha": "cb83b83a4ffc9a2e48070ba9a3dc4c3ce4c9f265",
+      "media_type": "application/json",
+      "raw_url": "https://raw.githubusercontent.com/CandidQuality/candidquality.github.io/823033489a11b6d7c6ed192fc226e49fee06d0d2/docs/ai-index.json",
+      "html_url": "https://github.com/CandidQuality/candidquality.github.io/blob/823033489a11b6d7c6ed192fc226e49fee06d0d2/docs/ai-index.json"
+    },
+    {
+      "path": "docs/ai-index.min.json",
+      "size": 3121,
+      "git_blob_sha": "70e2bc08280bf65c437cc5828b79a180f7a3a51d",
+      "media_type": "application/json",
+      "raw_url": "https://raw.githubusercontent.com/CandidQuality/candidquality.github.io/823033489a11b6d7c6ed192fc226e49fee06d0d2/docs/ai-index.min.json",
+      "html_url": "https://github.com/CandidQuality/candidquality.github.io/blob/823033489a11b6d7c6ed192fc226e49fee06d0d2/docs/ai-index.min.json"
+    },
+    {
+      "path": "docs/ai-pack-all.html",
+      "size": 7999,
+      "git_blob_sha": "2e855accd92479ff830eb6af6fe7cad7c49ec953",
+      "media_type": "text/html",
+      "raw_url": "https://raw.githubusercontent.com/CandidQuality/candidquality.github.io/823033489a11b6d7c6ed192fc226e49fee06d0d2/docs/ai-pack-all.html",
+      "html_url": "https://github.com/CandidQuality/candidquality.github.io/blob/823033489a11b6d7c6ed192fc226e49fee06d0d2/docs/ai-pack-all.html"
+    },
+    {
+      "path": "docs/ai-pack-all.json",
+      "size": 5833,
+      "git_blob_sha": "e7772099b9aeef2ddff46cdd9a5a1a8a7a21c6b3",
+      "media_type": "application/json",
+      "raw_url": "https://raw.githubusercontent.com/CandidQuality/candidquality.github.io/823033489a11b6d7c6ed192fc226e49fee06d0d2/docs/ai-pack-all.json",
+      "html_url": "https://github.com/CandidQuality/candidquality.github.io/blob/823033489a11b6d7c6ed192fc226e49fee06d0d2/docs/ai-pack-all.json"
+    },
+    {
+      "path": "docs/ai-pack-all.min.json",
+      "size": 5129,
+      "git_blob_sha": "18fc256a13d8a87a35e4781f26677f7c85eb91db",
+      "media_type": "application/json",
+      "raw_url": "https://raw.githubusercontent.com/CandidQuality/candidquality.github.io/823033489a11b6d7c6ed192fc226e49fee06d0d2/docs/ai-pack-all.min.json",
+      "html_url": "https://github.com/CandidQuality/candidquality.github.io/blob/823033489a11b6d7c6ed192fc226e49fee06d0d2/docs/ai-pack-all.min.json"
+    },
+    {
+      "path": "docs/ai-pack-all.txt",
+      "size": 5129,
+      "git_blob_sha": "18fc256a13d8a87a35e4781f26677f7c85eb91db",
+      "media_type": "text/plain",
+      "raw_url": "https://raw.githubusercontent.com/CandidQuality/candidquality.github.io/823033489a11b6d7c6ed192fc226e49fee06d0d2/docs/ai-pack-all.txt",
+      "html_url": "https://github.com/CandidQuality/candidquality.github.io/blob/823033489a11b6d7c6ed192fc226e49fee06d0d2/docs/ai-pack-all.txt"
+    },
+    {
+      "path": "docs/ai-pack-catalog.json",
+      "size": 1533,
+      "git_blob_sha": "c1e94f442f87ba0f60e86b62c5c2ffbbc9cbe86d",
+      "media_type": "application/json",
+      "raw_url": "https://raw.githubusercontent.com/CandidQuality/candidquality.github.io/823033489a11b6d7c6ed192fc226e49fee06d0d2/docs/ai-pack-catalog.json",
+      "html_url": "https://github.com/CandidQuality/candidquality.github.io/blob/823033489a11b6d7c6ed192fc226e49fee06d0d2/docs/ai-pack-catalog.json"
+    },
+    {
+      "path": "docs/ai-pack-catalog.min.json",
+      "size": 1062,
+      "git_blob_sha": "5f6fda6e2a3482bc5cca6048ad348fe2ea88610c",
+      "media_type": "application/json",
+      "raw_url": "https://raw.githubusercontent.com/CandidQuality/candidquality.github.io/823033489a11b6d7c6ed192fc226e49fee06d0d2/docs/ai-pack-catalog.min.json",
+      "html_url": "https://github.com/CandidQuality/candidquality.github.io/blob/823033489a11b6d7c6ed192fc226e49fee06d0d2/docs/ai-pack-catalog.min.json"
+    },
+    {
+      "path": "docs/ai-pack-ci.json",
+      "size": 2412,
+      "git_blob_sha": "051da2c1d0e073431e67b5e43682b515baf629e5",
+      "media_type": "application/json",
+      "raw_url": "https://raw.githubusercontent.com/CandidQuality/candidquality.github.io/823033489a11b6d7c6ed192fc226e49fee06d0d2/docs/ai-pack-ci.json",
+      "html_url": "https://github.com/CandidQuality/candidquality.github.io/blob/823033489a11b6d7c6ed192fc226e49fee06d0d2/docs/ai-pack-ci.json"
+    },
+    {
+      "path": "docs/ai-pack-ci.min.json",
+      "size": 2262,
+      "git_blob_sha": "320a18e2df96bd3e81fdd02beedd2f822b3f3644",
+      "media_type": "application/json",
+      "raw_url": "https://raw.githubusercontent.com/CandidQuality/candidquality.github.io/823033489a11b6d7c6ed192fc226e49fee06d0d2/docs/ai-pack-ci.min.json",
+      "html_url": "https://github.com/CandidQuality/candidquality.github.io/blob/823033489a11b6d7c6ed192fc226e49fee06d0d2/docs/ai-pack-ci.min.json"
+    },
+    {
+      "path": "docs/ai-pack-ci.txt",
+      "size": 2262,
+      "git_blob_sha": "320a18e2df96bd3e81fdd02beedd2f822b3f3644",
+      "media_type": "text/plain",
+      "raw_url": "https://raw.githubusercontent.com/CandidQuality/candidquality.github.io/823033489a11b6d7c6ed192fc226e49fee06d0d2/docs/ai-pack-ci.txt",
+      "html_url": "https://github.com/CandidQuality/candidquality.github.io/blob/823033489a11b6d7c6ed192fc226e49fee06d0d2/docs/ai-pack-ci.txt"
+    },
+    {
+      "path": "docs/ai-pack-core.json",
+      "size": 3186,
+      "git_blob_sha": "f5bde9e021a2613a575187656ab86e4e30afd04e",
+      "media_type": "application/json",
+      "raw_url": "https://raw.githubusercontent.com/CandidQuality/candidquality.github.io/823033489a11b6d7c6ed192fc226e49fee06d0d2/docs/ai-pack-core.json",
+      "html_url": "https://github.com/CandidQuality/candidquality.github.io/blob/823033489a11b6d7c6ed192fc226e49fee06d0d2/docs/ai-pack-core.json"
+    },
+    {
+      "path": "docs/ai-pack-core.min.json",
+      "size": 2914,
+      "git_blob_sha": "427f7c2fb6cf37aad03fb003e23cdb8d82f1fa8b",
+      "media_type": "application/json",
+      "raw_url": "https://raw.githubusercontent.com/CandidQuality/candidquality.github.io/823033489a11b6d7c6ed192fc226e49fee06d0d2/docs/ai-pack-core.min.json",
+      "html_url": "https://github.com/CandidQuality/candidquality.github.io/blob/823033489a11b6d7c6ed192fc226e49fee06d0d2/docs/ai-pack-core.min.json"
+    },
+    {
+      "path": "docs/ai-pack-core.txt",
+      "size": 2914,
+      "git_blob_sha": "427f7c2fb6cf37aad03fb003e23cdb8d82f1fa8b",
+      "media_type": "text/plain",
+      "raw_url": "https://raw.githubusercontent.com/CandidQuality/candidquality.github.io/823033489a11b6d7c6ed192fc226e49fee06d0d2/docs/ai-pack-core.txt",
+      "html_url": "https://github.com/CandidQuality/candidquality.github.io/blob/823033489a11b6d7c6ed192fc226e49fee06d0d2/docs/ai-pack-core.txt"
+    },
+    {
+      "path": "docs/ai-pack-data-config.json",
+      "size": 229,
+      "git_blob_sha": "1536dd09f25fcdea4174e45071669e079e509ca3",
+      "media_type": "application/json",
+      "raw_url": "https://raw.githubusercontent.com/CandidQuality/candidquality.github.io/823033489a11b6d7c6ed192fc226e49fee06d0d2/docs/ai-pack-data-config.json",
+      "html_url": "https://github.com/CandidQuality/candidquality.github.io/blob/823033489a11b6d7c6ed192fc226e49fee06d0d2/docs/ai-pack-data-config.json"
+    },
+    {
+      "path": "docs/ai-pack-data-config.min.json",
+      "size": 204,
+      "git_blob_sha": "c02d94fa098bdf75003fd2514f1089f5567674fd",
+      "media_type": "application/json",
+      "raw_url": "https://raw.githubusercontent.com/CandidQuality/candidquality.github.io/823033489a11b6d7c6ed192fc226e49fee06d0d2/docs/ai-pack-data-config.min.json",
+      "html_url": "https://github.com/CandidQuality/candidquality.github.io/blob/823033489a11b6d7c6ed192fc226e49fee06d0d2/docs/ai-pack-data-config.min.json"
+    },
+    {
+      "path": "docs/ai-pack-data-config.txt",
+      "size": 204,
+      "git_blob_sha": "c02d94fa098bdf75003fd2514f1089f5567674fd",
+      "media_type": "text/plain",
+      "raw_url": "https://raw.githubusercontent.com/CandidQuality/candidquality.github.io/823033489a11b6d7c6ed192fc226e49fee06d0d2/docs/ai-pack-data-config.txt",
+      "html_url": "https://github.com/CandidQuality/candidquality.github.io/blob/823033489a11b6d7c6ed192fc226e49fee06d0d2/docs/ai-pack-data-config.txt"
+    },
+    {
+      "path": "docs/ai-pack-docs.json",
+      "size": 222,
+      "git_blob_sha": "8ea6abdf10b05a3b4d9eaa6e654993bf896de19c",
+      "media_type": "application/json",
+      "raw_url": "https://raw.githubusercontent.com/CandidQuality/candidquality.github.io/823033489a11b6d7c6ed192fc226e49fee06d0d2/docs/ai-pack-docs.json",
+      "html_url": "https://github.com/CandidQuality/candidquality.github.io/blob/823033489a11b6d7c6ed192fc226e49fee06d0d2/docs/ai-pack-docs.json"
+    },
+    {
+      "path": "docs/ai-pack-docs.min.json",
+      "size": 197,
+      "git_blob_sha": "ec2d2b3c6bb19c1053ee7554b9935965bf522753",
+      "media_type": "application/json",
+      "raw_url": "https://raw.githubusercontent.com/CandidQuality/candidquality.github.io/823033489a11b6d7c6ed192fc226e49fee06d0d2/docs/ai-pack-docs.min.json",
+      "html_url": "https://github.com/CandidQuality/candidquality.github.io/blob/823033489a11b6d7c6ed192fc226e49fee06d0d2/docs/ai-pack-docs.min.json"
+    },
+    {
+      "path": "docs/ai-pack-docs.txt",
+      "size": 197,
+      "git_blob_sha": "ec2d2b3c6bb19c1053ee7554b9935965bf522753",
+      "media_type": "text/plain",
+      "raw_url": "https://raw.githubusercontent.com/CandidQuality/candidquality.github.io/823033489a11b6d7c6ed192fc226e49fee06d0d2/docs/ai-pack-docs.txt",
+      "html_url": "https://github.com/CandidQuality/candidquality.github.io/blob/823033489a11b6d7c6ed192fc226e49fee06d0d2/docs/ai-pack-docs.txt"
+    },
+    {
+      "path": "docs/ai-pack-everything-0001.json",
+      "size": 30101,
+      "git_blob_sha": "0a1505f58322b139984c38c980fe41d9b695172c",
+      "media_type": "application/json",
+      "raw_url": "https://raw.githubusercontent.com/CandidQuality/candidquality.github.io/823033489a11b6d7c6ed192fc226e49fee06d0d2/docs/ai-pack-everything-0001.json",
+      "html_url": "https://github.com/CandidQuality/candidquality.github.io/blob/823033489a11b6d7c6ed192fc226e49fee06d0d2/docs/ai-pack-everything-0001.json"
+    },
+    {
+      "path": "docs/ai-pack-everything-0001.min.json",
+      "size": 29219,
+      "git_blob_sha": "6035c9efaa8e010b3655f8b32e1af3b44c66c3fd",
+      "media_type": "application/json",
+      "raw_url": "https://raw.githubusercontent.com/CandidQuality/candidquality.github.io/823033489a11b6d7c6ed192fc226e49fee06d0d2/docs/ai-pack-everything-0001.min.json",
+      "html_url": "https://github.com/CandidQuality/candidquality.github.io/blob/823033489a11b6d7c6ed192fc226e49fee06d0d2/docs/ai-pack-everything-0001.min.json"
+    },
+    {
+      "path": "docs/ai-pack-everything-0001.txt",
+      "size": 29219,
+      "git_blob_sha": "6035c9efaa8e010b3655f8b32e1af3b44c66c3fd",
+      "media_type": "text/plain",
+      "raw_url": "https://raw.githubusercontent.com/CandidQuality/candidquality.github.io/823033489a11b6d7c6ed192fc226e49fee06d0d2/docs/ai-pack-everything-0001.txt",
+      "html_url": "https://github.com/CandidQuality/candidquality.github.io/blob/823033489a11b6d7c6ed192fc226e49fee06d0d2/docs/ai-pack-everything-0001.txt"
+    },
+    {
+      "path": "docs/ai-pack-everything.html",
+      "size": 764,
+      "git_blob_sha": "ea31cfed0e6e0ea0ed4e46a43701109e136e8d15",
+      "media_type": "text/html",
+      "raw_url": "https://raw.githubusercontent.com/CandidQuality/candidquality.github.io/823033489a11b6d7c6ed192fc226e49fee06d0d2/docs/ai-pack-everything.html",
+      "html_url": "https://github.com/CandidQuality/candidquality.github.io/blob/823033489a11b6d7c6ed192fc226e49fee06d0d2/docs/ai-pack-everything.html"
+    },
+    {
+      "path": "docs/ai-pack-everything.manifest.json",
+      "size": 438,
+      "git_blob_sha": "333f11979a985c6aacf71464752cf20618f402af",
+      "media_type": "application/json",
+      "raw_url": "https://raw.githubusercontent.com/CandidQuality/candidquality.github.io/823033489a11b6d7c6ed192fc226e49fee06d0d2/docs/ai-pack-everything.manifest.json",
+      "html_url": "https://github.com/CandidQuality/candidquality.github.io/blob/823033489a11b6d7c6ed192fc226e49fee06d0d2/docs/ai-pack-everything.manifest.json"
+    },
+    {
+      "path": "docs/ai-pack-everything.manifest.min.json",
+      "size": 364,
+      "git_blob_sha": "0ef58b09f9190f1b78402b43bb12ba5323fe0349",
+      "media_type": "application/json",
+      "raw_url": "https://raw.githubusercontent.com/CandidQuality/candidquality.github.io/823033489a11b6d7c6ed192fc226e49fee06d0d2/docs/ai-pack-everything.manifest.min.json",
+      "html_url": "https://github.com/CandidQuality/candidquality.github.io/blob/823033489a11b6d7c6ed192fc226e49fee06d0d2/docs/ai-pack-everything.manifest.min.json"
     },
     {
       "path": "index.html",
       "size": 787,
       "git_blob_sha": "f2bf7099b53ac6e76c84ccf1aac1518a04354c80",
       "media_type": "text/html",
-      "raw_url": "https://raw.githubusercontent.com/CandidQuality/candidquality.github.io/916f37bba42cae38c5e3ee433d54a67d35e9dfd2/index.html",
-      "html_url": "https://github.com/CandidQuality/candidquality.github.io/blob/916f37bba42cae38c5e3ee433d54a67d35e9dfd2/index.html"
+      "raw_url": "https://raw.githubusercontent.com/CandidQuality/candidquality.github.io/823033489a11b6d7c6ed192fc226e49fee06d0d2/index.html",
+      "html_url": "https://github.com/CandidQuality/candidquality.github.io/blob/823033489a11b6d7c6ed192fc226e49fee06d0d2/index.html"
     },
     {
       "path": "manifest.json",
       "size": 547,
       "git_blob_sha": "a4eb8ca8bdaacf7672ac38f3fecec2765ef3e20e",
       "media_type": "application/json",
-      "raw_url": "https://raw.githubusercontent.com/CandidQuality/candidquality.github.io/916f37bba42cae38c5e3ee433d54a67d35e9dfd2/manifest.json",
-      "html_url": "https://github.com/CandidQuality/candidquality.github.io/blob/916f37bba42cae38c5e3ee433d54a67d35e9dfd2/manifest.json"
+      "raw_url": "https://raw.githubusercontent.com/CandidQuality/candidquality.github.io/823033489a11b6d7c6ed192fc226e49fee06d0d2/manifest.json",
+      "html_url": "https://github.com/CandidQuality/candidquality.github.io/blob/823033489a11b6d7c6ed192fc226e49fee06d0d2/manifest.json"
     },
     {
       "path": "scripts/build_ai_index.mjs",
       "size": 20302,
       "git_blob_sha": "4ab1ba8d498344fb8d6730c2549a02272e7ef241",
       "media_type": "application/javascript",
-      "raw_url": "https://raw.githubusercontent.com/CandidQuality/candidquality.github.io/916f37bba42cae38c5e3ee433d54a67d35e9dfd2/scripts/build_ai_index.mjs",
-      "html_url": "https://github.com/CandidQuality/candidquality.github.io/blob/916f37bba42cae38c5e3ee433d54a67d35e9dfd2/scripts/build_ai_index.mjs"
+      "raw_url": "https://raw.githubusercontent.com/CandidQuality/candidquality.github.io/823033489a11b6d7c6ed192fc226e49fee06d0d2/scripts/build_ai_index.mjs",
+      "html_url": "https://github.com/CandidQuality/candidquality.github.io/blob/823033489a11b6d7c6ed192fc226e49fee06d0d2/scripts/build_ai_index.mjs"
     }
   ]
 }
