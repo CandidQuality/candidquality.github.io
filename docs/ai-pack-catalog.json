@@ -1,0 +1,67 @@
+{
+  "schema": "barkday.ai-pack-catalog.v1",
+  "repo": "CandidQuality/candidquality.github.io",
+  "commit": "916f37bba42cae38c5e3ee433d54a67d35e9dfd2",
+  "updated_utc": "2025-11-11T03:20:41.191Z",
+  "packs": [
+    {
+      "name": "ai-pack-docs",
+      "count": 0,
+      "bytes_min": 197,
+      "files": [
+        "docs/ai-pack-docs.json",
+        "docs/ai-pack-docs.min.json",
+        "docs/ai-pack-docs.txt"
+      ]
+    },
+    {
+      "name": "ai-pack-data-config",
+      "count": 0,
+      "bytes_min": 204,
+      "files": [
+        "docs/ai-pack-data-config.json",
+        "docs/ai-pack-data-config.min.json",
+        "docs/ai-pack-data-config.txt"
+      ]
+    },
+    {
+      "name": "ai-pack-core",
+      "count": 2,
+      "bytes_min": 2906,
+      "files": [
+        "docs/ai-pack-core.json",
+        "docs/ai-pack-core.min.json",
+        "docs/ai-pack-core.txt"
+      ]
+    },
+    {
+      "name": "ai-pack-ci",
+      "count": 1,
+      "bytes_min": 2262,
+      "files": [
+        "docs/ai-pack-ci.json",
+        "docs/ai-pack-ci.min.json",
+        "docs/ai-pack-ci.txt"
+      ]
+    },
+    {
+      "name": "ai-pack-everything (sharded)",
+      "count": 7,
+      "bytes_min": 29196,
+      "files": [
+        "docs/ai-pack-everything.manifest.min.json",
+        "docs/ai-pack-everything.html"
+      ]
+    },
+    {
+      "name": "ai-pack-all (combined)",
+      "count": 3,
+      "bytes_min": 5121,
+      "files": [
+        "docs/ai-pack-all.min.json",
+        "docs/ai-pack-all.txt",
+        "docs/ai-pack-all.html"
+      ]
+    }
+  ]
+}

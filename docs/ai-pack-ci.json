@@ -1,0 +1,25 @@
+{
+  "schema": "barkday.ai-pack-ci.v1",
+  "repo": "CandidQuality/candidquality.github.io",
+  "commit": "916f37bba42cae38c5e3ee433d54a67d35e9dfd2",
+  "updated_utc": "2025-11-11T03:20:41.191Z",
+  "count": 1,
+  "items": [
+    {
+      "path": ".github/workflows/build_ai_index.yml",
+      "size": 1311,
+      "sha": "0fd4fa27b3a4427c12c009e50770451b2fd96d78",
+      "media_type": "text/yaml",
+      "raw_url": "https://raw.githubusercontent.com/CandidQuality/candidquality.github.io/916f37bba42cae38c5e3ee433d54a67d35e9dfd2/.github/workflows/build_ai_index.yml",
+      "html_url": "https://github.com/CandidQuality/candidquality.github.io/blob/916f37bba42cae38c5e3ee433d54a67d35e9dfd2/.github/workflows/build_ai_index.yml",
+      "inline_state": "full",
+      "max_inline_text_bytes": 614400,
+      "max_inline_bin_bytes": 204800,
+      "preview_text_bytes": 65536,
+      "encoding": "utf8",
+      "content": "name: Build AI Index and Packs\n\non:\n  workflow_dispatch:\n  push:\n    branches: [ main ]\n    # Avoid loops when the workflow commits docs/*\n    paths-ignore:\n      - \"docs/**\"\n\npermissions:\n  contents: write\n\nconcurrency:\n  group: ai-index-${{ github.ref }}\n  cancel-in-progress: false\n\njobs:\n  build:\n    runs-on: ubuntu-latest\n    steps:\n      - name: Checkout\n        uses: actions/checkout@v4\n        with:\n          fetch-depth: 0\n\n      - name: Use Node\n        uses: actions/setup-node@v4\n        with:\n          node-version: \"20\"\n\n      # If your repo has no npm dependencies, we skip install.\n\n      - name: Build indices and packs\n        run: node scripts/build_ai_index.mjs\n\n      - name: Commit docs if changed\n        run: |\n          if [[ -n \"$(git status --porcelain docs)\" ]]; then\n            git config user.name \"github-actions[bot]\"\n            git config user.email \"41898282+github-actions[bot]@users.noreply.github.com\"\n            git add docs\n            git commit -m \"build(ai): regenerate ai-index and packs\"\n            git push\n          else\n            echo \"No changes in docs/\"\n          fi\n        # Prevent recursion if a bot push re-triggers the job due to other filters\n        if: ${{ github.actor != 'github-actions[bot]' || github.event_name == 'workflow_dispatch' }}\n",
+      "inline_bytes": 1311,
+      "content_sha256": "7bc34b0cf8ed0e91e807a3d0b8a3d79a947be6fb7f2a6fac2197ba046dd8de7b"
+    }
+  ]
+}
